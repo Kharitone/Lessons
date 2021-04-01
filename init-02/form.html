@@ -1,0 +1,40 @@
+<!-- Accept name and surname -->
+<!DOCTYPE HTML5>
+<html>
+<head>
+ <style>
+  .submit-button { 
+    font-family: verdana,arial;
+    margin-top: 5px;
+  }
+
+  .input-line {
+    width: 30%;
+    color: #333;
+    font-size: 16px;
+    text-align: right;
+    font-family: verdana,arial;
+  }
+  </style>
+</head>
+
+<body>
+
+  <form action="fullname.php" method="post" class="input-line">
+  <label for="name">
+    <u>First name:</u>
+  </label>
+    <input type="text" id="name" name="name">
+    </br>
+
+  <label for="surname" >
+    <u>Second name:</u>
+  </label>
+    <input type="text" id="surname" name="sur">
+    </br>
+
+  <label for="submit"/>
+    <input type="submit" id="submit" class="submit-button" value="Convert to full name">
+  </form>
+<!-- demonstate post method -->
+</body>
