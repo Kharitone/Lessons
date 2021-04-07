@@ -23,4 +23,5 @@ echo "hello, world!</br>";    // one argument
 echo "hello, ", "world!", "</br>";   // three agruments; quotes are mandatory!
 echo "hello, ", "world!</br>";       // two arguments
 
-/* More html tags */
+/* More html tags... */
+echo "<
